@@ -2,4 +2,4 @@
 
 Practicing VanilaJS
 
-See [the result](mcwithimp.github.io/momentum_vanilaJS)
+See [the result](https://mcwithimp.github.io/momentum_vanilaJS/)

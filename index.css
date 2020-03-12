@@ -1,0 +1,106 @@
+body{
+    background-color: #2c3e50;
+    color: white;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin: 15px;
+}
+
+.form,
+.greeting {
+    display: none;
+    text-align: center;
+    height: 50px;
+    margin: 0;
+    font-size: 60px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+li {
+    animation: fadeIn 0.7s ease-in-out;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    outline: none;
+    color: white;
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    font-size: 40px;
+}
+
+.js-toDoForm,
+.js-toDoList {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.js-toDoList {
+    padding: 0;
+    display: inline;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    list-style: none;
+}
+
+button {
+    padding-right: 15px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: red;
+    outline: none;
+}
+
+button:hover {
+    font-size: 23px;
+}
+
+.showing {
+    display: block;
+}
+
+.js-clock {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    font-family: "Open Sans";
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.js-weather {
+    display: flex;
+    align-items: top;
+    justify-content: right;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    } 
+    to {
+        opacity: 1;
+    }
+}
+
+
+.bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn .7s linear;
+}
